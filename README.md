@@ -48,3 +48,41 @@ export default tseslint.config({
   },
 })
 ```
+
+## Getting Started
+
+### Prerequisites
+
+- bun runtime installed on your machine.
+- A OMDB API key.
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   https://github.com/Cramouchegit/PopMovies-App.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd PopMovies-App
+   ```
+3. Install the dependencies:
+   ```bash
+   bun install
+   ```
+
+### Running the Application
+
+1. Create a `.env` file in the root directory and add your OMDB API key:
+   ```plaintext
+   VITE_API_KEY="YOUR_OMDB_API_KEY_HERE"
+   ```
+2. Start the development server:
+   ```bash
+   bun run dev
+   ```
+3. Open your browser and go to `http://localhost:5173` to see the application in action.
+
+## Resources
+
+- [OMDB API Documentation](https://www.omdbapi.com//)
